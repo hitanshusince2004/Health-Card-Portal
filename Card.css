@@ -1,0 +1,7 @@
+.bg-purple-300 min-h-screen p-10 {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+

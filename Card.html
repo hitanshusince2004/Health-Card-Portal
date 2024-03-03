@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health Cards</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.3/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+<style>
+    .oval {
+        width: 300px; /* Increased size to match the reference */
+        height: 300px;
+        background-color: #D1D5DB; /* Updated color to match the reference */
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4rem; /* Enlarged the icon size inside the oval */
+        color: #4B5563; /* Updated icon color to match the reference */
+        margin-left: 100px;
+        background-image: url("ai-generated-8171536_640.webp");
+        background-size: cover;
+    }
+</style>
+</head>
+<body class="bg-purple-200"> <!-- Updated background color -->
+<div class="p-6">
+    <header class="flex items-center justify-between mb-6">
+        <i class="fas fa-bars text-gray-800 text-2xl"></i>
+        <h1 class="text-xl font-bold text-gray-800">Health Cards</h1>
+        <div class="relative">
+            <i class="fas fa-search absolute left-3 top-2 text-gray-500"></i>
+            <input type="text" placeholder="Search" class="pl-10 pr-4 py-2 rounded-full bg-white">
+            <i class="fas fa-microphone text-gray-500"></i>
+        </div>
+        <i class="fas fa-user text-gray-800 text-2xl"></i>
+    </header>
+    <div class="flex items-center">
+        <div class="oval mr-4 flex items-center justify-center"> <!-- Centrally align the icon in the oval -->
+            <!-- <i class="fas fa-user"></i> Add icon inside the oval -->
+        </div>
+
+        <!-- Personal Informations: -->
+
+        <div class="flex-1 bg-purple-300 p-6 rounded-lg shadow-md" style="padding-left: 70px; padding-top: 50px; margin-left: 100px; height: 600px;"> <!-- Updated card color and padding -->
+            <h2 class="text-black text-xl font-semibold mb-4" style="text-align: center;">Personal Information:</h2> <!-- Updated text color and size -->
+            <div class="text-gray-800">
+                <p class="mb-4">NAME – Divu</p> <!-- Increased spacing between lines -->
+                <p class="mb-1">FATHER’S NAME – Jatinkumar</p>
+                <p class="mb-1">BLOOD GROUP – B+</p>
+                <p class="mb-1">PHONE NUMBER – 1121XXXXX9</p>
+                <p class="mb-1">AGE – 13</p>
+                <p class="mb-1">ADDRESS – hjbsfkjnhvisiuf whgusgyuhsbgshug hwiuf </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Health Informations: -->
+    <div class="flex flex-col space-y-6 p-6">
+        <h2 style="text-align: center; font-weight: bold; font-size: large;">Health Information:</h2>
+        <!-- Frame 7 -->
+        <div class="flex items-center px-6 py-4 bg-purple-300 rounded-lg shadow-md">
+            <div class="w-3 h-full bg-purple-700 rounded-l-md mr-4"></div>
+            <div class="flex-1">
+                <h3 class="text-xl text-purple-800 font-semibold">HEIGHT -- 142cm</h3>
+            </div>
+        </div>
+        <!-- Frame 8 -->
+        <div class="flex items-center px-6 py-4 bg-purple-300 rounded-lg shadow-md">
+            <div class="w-3 h-full bg-purple-700 rounded-l-md mr-4"></div>
+            <div class="flex-1">
+                <h3 class="text-xl text-purple-800 font-semibold">WEIGHT -- 32Kg</h3>
+            </div>
+        </div>
+        <!-- Frame 9 -->
+        <div class="flex items-center px-6 py-4 bg-purple-300 rounded-lg shadow-md">
+            <div class="w-3 h-full bg-purple-700 rounded-l-md mr-4"></div>
+            <div class="flex-1">
+                <h3 class="text-xl text-purple-800 font-semibold">BMI -- XXX</h3>
+            </div>
+        </div>
+        <!-- Frame 10 -->
+        <div class="flex items-center px-6 py-4 bg-purple-300 rounded-lg shadow-md">
+            <div class="w-3 h-full bg-purple-700 rounded-l-md mr-4"></div>
+            <div class="flex-1" style="height: 150px;">
+                <h3 class="text-xl text-purple-800 font-semibold">ALLERGIES -- Nothing</h3>
+            </div>
+        </div>
+        <!-- Frame 11 -->
+        <div class="flex items-center px-6 py-4 bg-purple-300 rounded-lg shadow-md">
+            <div class="w-3 h-full bg-purple-700 rounded-l-md mr-4 "></div>
+            <div class="flex-1" style="height: 150px;">
+                <h3 class="text-xl text-purple-800 font-semibold">DISABILITY -- Nothing</h3>
+            </div>
+        </div>
+ </div>
+</body>
+</html>
+    
